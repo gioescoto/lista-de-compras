@@ -2,4 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+} 
+
+:root {
+  --titulo: #ffb5a7;
+  --primaria: #fcd5ce;
+  --fundo: #f8edeb;
+  --secundaria: #f9dcc4;
+  --texto: #fec89a;
+}
+
+body {
+  background-color: var(--fundo);
+  color: var(--texto);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--titulo);
+}
+
+header {
+  width: 100%;
+  height: 60px; 
+  background-color: var(--primaria);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
