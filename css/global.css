@@ -29,3 +29,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+section#itens-carrinho,
+section.listas {
+  margin-top: 5px;
+  margin-left: 10px;
+}
